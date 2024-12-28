@@ -4,14 +4,26 @@ I've done that year's (2016) challenges for fun and to refresh memory about some
 without deep performance optimization since I prefer idiomatic and readable code until it really needs to be much
 faster, so most of the solutions are quick enough to do a job in seconds under default CPython.
 
+Also, I was a bit inspired by already existing Python and other languages runner frameworks, so I decided to try to
+implement my mini framework for downloading inputs and submitting answers and maybe something more, but it's just an
+idea, so I don't have a clue how it will look at the end at all, so we'll see what comes of this :)
+
 ### Rules:
 
 - `Python 3.12`
-- `Built-in only`
+- `Built-in only` for puzzle solutions
 - `PEP8`
 - `Type hinting`
 - Linters ([Ruff](https://docs.astral.sh/ruff/) and [MyPy](https://mypy.readthedocs.io/en/stable/)
   via [pre-commit](https://pre-commit.com/index.html))
+
+---
+
+## Core: downloading input and submitting solutions
+
+- [ ] Framework to make puzzle solvers
+- [ ] Runner application
+- [ ] HTTP client
 
 ---
 
