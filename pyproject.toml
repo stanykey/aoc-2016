@@ -10,13 +10,11 @@ readme = "README.md"
 license = "LICENSE"
 authors = ["Sergii Lovygin <lovygin.dev@gmail.com>"]
 maintainers = ["Sergii Lovygin <lovygin.dev@gmail.com>"]
-homepage = "https://github.com/stanykey/aoc-2015"
-repository = "https://github.com/stanykey/aoc-2015.git"
+homepage = "https://github.com/stanykey/aoc-2016"
+repository = "https://github.com/stanykey/aoc-2016.git"
 
 [tool.poetry.dependencies]
 python = ">=3.12"
-prompt-toolkit = "*"
-pygments = "*"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "*"
